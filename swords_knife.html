@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // A intenção desse código é praticar matriz e fazer com que o usuário 
+        // informe o level atual do seu char, e se está apto a usar a sword,
+        // dentro de uma matriz que contém apenas 3 itens, podendo ser mais.
+
+        
+        
+        let matriz = [
+            ['Emerald Sword' , '100' , '49'],
+            ['The Calamity' , '100' , '51'],
+            ['Shiny Blade' , '100' , '49']
+            
+        ]
+
+        let level_char = parseInt(prompt('Informe o level do seu personagem: '))
+
+        console.log('Swords: ')
+        for (let i = 0; i < matriz.length; i++) {
+            let sword = matriz[i]
+            let sword_name = sword[0]
+            let sword_level_required = sword[i]
+
+            console.log(`Nome:  ${sword_name}`)
+            console.log(`Level necessário: ${sword_level_required}`)
+        
+            if (level_char >= sword_level_required) {
+                console.log('O personagem pode equipar esta sword. ')
+            } else {
+                console.log('O personagem não pode equipar esta sword')
+            }
+        
+        
+        
+        }   
+
+
+
+    </script>
+</body>
+</html>
