@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        //Crie uma função que recebe um array de números como parâmetro 
+        // e retorna o maior número presente no array.
+
+        // Função que recebe array
+        let numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        // Variavel que recebe o maior número
+        let maior_numero = numero[0]
+
+        for (let i = 1; i < numero.length; i++) {
+            if (numero[i] > maior_numero) {
+                maior_numero = numero[i]
+            }
+        }
+
+        
+        console.log('O maior número é ' + maior_numero)
+
+    </script>
+</body>
+</html>
