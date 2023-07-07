@@ -1,0 +1,10 @@
+3 - Escreva uma função que receba dois números e retorne o maior deles.
+4 - Escreva uma função que receba três números e retorne o maior deles.
+5 - Escreva uma função que receba um número e retorne true se ele for par e false se for ímpar.
+6 - Escreva uma função que receba um número e retorne true se ele for positivo e false se for negativo.
+7 - Escreva uma função que receba um número e retorne true se ele for um múltiplo de 3 e false caso contrário.
+8 - Escreva uma função que receba um ano e retorne true se ele for bissexto e false caso contrário.
+9 - Escreva uma função que receba uma string e retorne true se ela contiver apenas letras maiúsculas e false caso contrário.
+10 - Escreva uma função que receba uma string e retorne true se ela for um palíndromo (lê-se igual de trás para frente) e false caso contrário.
+11 - Escreva uma função que receba uma lista de números e retorne o maior número da lista.
+12 - Escreva uma função que receba uma lista de números e retorne a média aritmética deles.
