@@ -11,19 +11,25 @@
         // Escreva uma função que receba uma string e retorne true se ela 
         // contiver apenas letras maiúsculas e false caso contrário.
 
+
+
+        // Definir função de STRING que retorne false ou true
         function letras_maiusculas(str) {
+            // Condição 
             for (let i = 0; i < str.length; i++) {
                 if(str[i] !== str[i].toUpperCase()) {
                     return false;
                 } 
             }
-            return true
+                    return true
         }
-    
+        // Várialvel 1 para mostrar resultado TRUE
+
         let string_1 = 'RODRIGO'
         let resultado_1 = letras_maiusculas(string_1);
            console.log(string_1 + ' contém apenas letras maiusculas e é ' + resultado_1)
 
+        // Variavel 2 para mostrar resultado FALSE
         let string_2 = 'rodrigo'
         let resultado_2 = letras_maiusculas(string_2)
             console.log(string_2 + ' contém apenas letras minúsculas e é ' + resultado_2)
